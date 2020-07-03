@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Gallary</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="CSS/myStyle.css">
+  
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg nav-tabs">
+  <div class="container-fluid">
+     
+      <a class="navbar-brand" href="#">Gallery Site</a>
+       <button type="button" class="navbar-toggler navbar-left navbar-dark bg-primary" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+        
+      </button>
+   
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link active" href="gallery.html">My Gallery</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" href="AboutMe.html">About Me</a></li> 
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class = "container d-flex flex-column">
+  <div class="flex-grow-1">
+		<div class="row">
+	   <header class="col-lg-12">
+          <h1>This is My Photo Gallery</h1>
+    </header>
+ 		<div class="col-lg-12" id = "pic">
+		Hover over a picture to be enlarged.
+	</div>
+	</div>
+  <div class = "row" >
+  	
+    <img src = "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Central_ID_River.jpg?crop=196,0,2607,1434&wid=4000&hei=2200&scl=0.6518181818181819"
+    class="col-sm-6 col-md-4 col-lg-2 img-responsive img-thumbnail" alt="great waterfall" onmouseover = "Fullsize(this)" onmouseout = "undo()">
+      <img src = "https://images.takeshape.io/86ce9525-f5f2-4e97-81ba-54e8ce933da7/dev/cb8a2bae-602a-45dd-a66a-20f92802623a/redcharlie-672182-unsplash.jpg?auto=compress%2Cformat"
+    class="col-sm-6 col-md-4 col-lg-2 img-responsive img-thumbnail" alt="Sunset in forest" onmouseover = "Fullsize(this)" onmouseout = "undo()"> 
+      <img src = "https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2017/11/04133712/waterfall.jpg"
+    class="col-sm-6 col-md-4 col-lg-2 img-responsive img-thumbnail" alt="Small waterfall" onmouseover = "Fullsize(this)" onmouseout = "undo()">
+      <img src = "https://assets.weforum.org/report/image/xC_06zaz-uO6n91o6RE0G0qldLFVjoHdZWlGwfSezJk.png"
+    class="col-sm-6 col-md-4 col-lg-2 img-responsive img-thumbnail" alt="Forest Overview" onmouseover = "Fullsize(this)" onmouseout = "undo()">
+      <img src = "https://static.scientificamerican.com/sciam/cache/file/4E0744CD-793A-4EF8-B550B54F7F2C4406_source.jpg?w=590&h=800&ACB6A419-81EB-4B9C-B846FD8EBFB16FBE"
+    class="col-sm-6 col-md-4 col-lg-2 img-responsive img-thumbnail" alt="River look" onmouseover = "Fullsize(this)" onmouseout = "undo()">
+      <img src = "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_86887171.jpg?crop=0,176,3032,1667&wid=2000&hei=1100&scl=1.516"
+    class="col-sm-6 col-md-4 col-lg-2 img-responsive img-thumbnail" alt="Green forest" onmouseover = "Fullsize(this)" onmouseout = "undo()">
+      <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Big_Nature_%28155420955%29.jpeg/800px-Big_Nature_%28155420955%29.jpeg"
+    class="col-sm-6 col-md-4 col-lg-2 img-responsive img-thumbnail" alt="Bule Sky image on river" onmouseover = "Fullsize(this)" onmouseout = "undo()">
+      <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSt3Y33Ba_L04fkE5LlEUKJq50GwBvYlo-iJA&usqp=CAU"
+  class="col-sm-6 col-md-4 col-lg-2 img-responsive img-thumbnail" alt="Sunset on river shore" onmouseover = "Fullsize(this)" onmouseout = "undo()">
+  <img src = "https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg"
+  class="col-sm-6 col-md-4 col-lg-2 img-responsive img-thumbnail" alt="Thunder in the sky" onmouseover = "Fullsize(this)" onmouseout = "undo()">
+  <img src = "https://i.pinimg.com/originals/f8/b6/9e/f8b69e6156999b84137f3f0a23701b75.jpg"
+  class="col-sm-6 col-md-4 col-lg-2 img-responsive img-thumbnail" alt="Lovley flowers" onmouseover = "Fullsize(this)" onmouseout = "undo()">
+  <img src = "https://cdnuploads.aa.com.tr/uploads/Contents/2020/03/27/thumbs_b_c_578b2ded4cc97686c5cac62fc7504ab4.jpg?v=155308"
+  class="col-sm-6 col-md-4 col-lg-2 img-responsive img-thumbnail" alt="Drought on land" onmouseover = "Fullsize(this)" onmouseout = "undo()">
+  <img src = "https://thewallpaper.co//wp-content/uploads/2016/10preview/1080p-nature-background-free-download-hd-desktop-wallpapers-cool-images-amazing-hd-download-free-display-lovely-wallpapers-1920x1080.jpg"
+  class="col-sm-6 col-md-4 col-lg-2 img-responsive img-thumbnail" alt="Great mountain" onmouseover = "Fullsize(this)" onmouseout = "undo()">
+
+    </div>
+    
+  </div>
+  <div class="row">
+    <footer class="col-lg-12">
+      <p>&copy;Sample code for my portifolio.<br/> Maryan Louis Aziz</p>
+    </footer>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="Js/Myjs.js"></script>
+</body>
+</html>

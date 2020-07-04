@@ -50,9 +50,12 @@ footer p{
 }
 
 #right h2, #left h2, #bottom h2, .navbar-brand{
-	font-size: 150%;
+	font-size: 175%;
 }
 
 .sr-only{
 	display: none;
+}
+.nav-link{
+	font-size: 125%;
 }

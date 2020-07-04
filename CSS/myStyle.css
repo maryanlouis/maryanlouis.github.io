@@ -57,10 +57,6 @@ footer p{
 	display: none;
 }
 
-.navbar-brand{
-	font-size: 200%;
-}
-
-.nav-link{
-	font-size: 150%;
+.navbar-brand, .nav-link{
+	color: #1304c5;
 }

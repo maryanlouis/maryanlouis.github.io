@@ -49,6 +49,6 @@ footer p{
 	text-align: center;
 }
 
-#right h5, #left h5, #bottom h5{
+#right h2, #left h2, #bottom h2, .navbar-brand{
 	font-size: 150%;
 }

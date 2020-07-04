@@ -44,7 +44,7 @@ footer p{
 	padding: 1%;
 	border:1px solid #FFFFFF;
 	border-radius: 1rem;
-	font-size: 120%;
+	font-size: 125%;
 	color: #FFFFFF;
 	text-align: center;
 }
@@ -57,5 +57,5 @@ footer p{
 	display: none;
 }
 .nav-link{
-	font-size: 125%;
+	font-size: 130%;
 }

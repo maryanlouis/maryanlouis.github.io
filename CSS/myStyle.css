@@ -49,13 +49,18 @@ footer p{
 	text-align: center;
 }
 
-#right h2, #left h2, #bottom h2, .navbar-brand{
+#right h2, #left h2, #bottom h2{
 	font-size: 175%;
 }
 
 .sr-only{
 	display: none;
 }
+
+.navbar-brand{
+	font-size: 200%;
+}
+
 .nav-link{
-	font-size: 130%;
+	font-size: 150%;
 }
